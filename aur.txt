@@ -1,0 +1,5 @@
+i3lock-color
+networkmanager-dmenu-git
+flashfocus
+alternating-layouts-git
+sardi-icons

@@ -1,0 +1,18 @@
+##-- Window rules
+    for_window [class="stacer"] floating enable
+    for_window [class="Lightdm-gtk-greeter-settings"] floating enable
+    for_window [class="Ristretto"] floating enable
+    for_window [window_role="pop-up"] floating enable
+    for_window [window_role="task_dialog"] floating enable
+    for_window [class="swayimg"] floating enable
+    for_window [class="File-roller"] floating enable
+    for_window [class="Steam"] floating enable
+    for_window [class="Thunar"] floating enable
+    for_window [class="Lxappearance|Nitrogen"] floating enable
+    for_window [class="alacritty-float"] floating enable
+    for_window [class="Pavucontrol|Xfce4-power-manager-settings|Nm-connection-editor"] floating enable
+    for_window [class="TelegramDesktop"] floating enable
+    for_window [class="Kvantum Manager|qt5ct"] floating enable
+    for_window [class="VirtualBox Manager|qemu|Qemu-system-x86_64"] floating enable
+    for_window [class="jetbrains-webstorm"] floating enable
+    

@@ -1,0 +1,30 @@
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#     _____      _______  __  _________  _  _______________ #
+#    / __/ | /| / / _ \ \/ / / ___/ __ \/ |/ / __/  _/ ___/ #
+#   _\ \ | |/ |/ / __ |\  / / /__/ /_/ /    / _/_/ // (_ /  #
+#  /___/ |__/|__/_/ |_|/_/  \___/\____/_/|_/_/ /___/\___/   #
+#                                                           #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+##-- Global variables
+##-- Variables
+    set $mod Mod4
+    set $alt Mod1
+    set $term alacritty
+    set $left h
+    set $down j
+    set $up k
+    set $right l
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+include /home/abdugani/.config/i3/config.d/*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+##-- Autostart ---------------------------
+exec_always --no-startup-id ~/.config/bin/autostart.sh
+exec_always --no-startup-id alternating_layouts.py
+exec_always --no-startup-id flashfocus

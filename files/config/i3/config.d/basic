@@ -1,0 +1,12 @@
+
+##-- Gaps
+gaps outer 10
+gaps inner 10
+
+##-- Border
+title_align center
+default_border pixel 2
+
+
+##-- Fonts
+font pango:FiraCode Nerd Font 10

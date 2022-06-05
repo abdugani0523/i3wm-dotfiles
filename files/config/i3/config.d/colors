@@ -1,0 +1,8 @@
+
+##-- Colors
+    # class                 border  bg      text    indicator child_border
+    client.focused          #61afef #61afef #abb2bf #c678dd   #61afef
+    client.focused_inactive #131613 #458588 #abb2bf #c678dd   #131613
+    client.unfocused        #131613 #131613 #abb2bf #c678dd   #131613
+    client.urgent           #e06c75 #e06c75 #abb2bf #c678dd   #C678DD
+    client.placeholder      #e5c07b #e5c07b #abb2bf #c678dd   #e5c07b
